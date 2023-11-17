@@ -27,7 +27,7 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-XX November 2023
+November 2023
 <span style="margin: 0 20px"></span>
 IAG Science Day 2023
 
@@ -96,9 +96,9 @@ Image source: [Burton-Johnson et al. (2020)](https://doi.org/10.5194/tc-14-3843-
 </div>
 <div class="footnote-left">
 
-Image source: India Uppal
+Image source: India Uppal (CC-BY)
 <br>
-APMAP2 data ([Golynsky et al., 2018](https://doi.org/10.1029/2018GL078153))
+From APMAP2 data ([Golynsky et al., 2018](https://doi.org/10.1029/2018GL078153))
 
 </div>
 
@@ -130,20 +130,65 @@ Image source: [Burton-Johnson et al. (2020)](https://doi.org/10.5194/tc-14-3843-
 
 <!-- .slide: class="slide-transition" -->
 
-# Current issues
+# Issues
 
 ===============================================================================
 
-Models don't agree
+<!-- .slide: data-background-image="assets/heatflow-model-comparison.svg" data-background-size="contain" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Image modified from: [Lösing et al. (2020)](https://doi.org/10.3389/feart.2020.00105)
+
+</div>
 
 ===============================================================================
 
-Spectral method is not adequate
+<div class="huge">
+
+Spectral methods
+
+<img src="assets/magnetic-spectrum-method.svg" style="width: 50%">
+
+<div class="fragment">
+
+are **outdated**
+
+<div class="normalsize">
+
+[Audet & Gosselin (2019)](https://doi.org/10.1093/gji/ggz166) |
+[Núñez Demarco et al. (2021)](https://doi.org/10.1093/gji/ggaa361) |
+[Szwillus et al. (2022)](https://doi.org/10.1093/gji/ggac133)
+
+</div>
+
+</div>
+
+</div>
 
 ===============================================================================
 
-How to merge high-resolution airborne data (with gaps) with
-low resolution satellite data (no gaps)?
+<div class="centered">
+<div>
+
+<img src="assets/airborne-plus-satellite.jpg" style="width: 90%">
+
+<div class="small">
+
+Ex: [Martos et al., (2017)](https://doi.org/10.1002/2017GL075609), 
+[Kim et al. (2022)](https://doi.org/10.1029/2021JB023329) 
+
+</div>
+
+</div>
+</div>
+<div class="footnote">
+
+Right image modified from: [Fox Maule et al. (2005)](https://doi.org/10.1126/science.1106888)
+
+</div>
 
 ===============================================================================
 
@@ -153,15 +198,18 @@ low resolution satellite data (no gaps)?
 
 ===============================================================================
 
-1. Actual 3D Inversion
-
-Justify why norm of by with figure from Marlon's paper
+<img src="assets/hamed-inputs.jpg">
 
 ===============================================================================
 
-1. Merging data
+<img src="assets/hamed-grids.jpg">
+
+===============================================================================
+
+Anomalies to crustal field
 
 India's results.
+Justify why norm of by with figure from Marlon's paper
 
 ===============================================================================
 
