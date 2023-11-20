@@ -104,6 +104,36 @@ From APMAP2 data ([Golynsky et al., 2018](https://doi.org/10.1029/2018GL078153))
 
 ===============================================================================
 
+<div class="centered r-stretch">
+<div class="large">
+
+<p>
+<!-- .element: class="fragment" data-fragment-index="1" --> Magnetic data
+</p>
+<p>⬇️  <br>
+<!-- .element: class="fragment" data-fragment-index="2" --> Depth of sources<sup>1</sup>
+</p>
+<p>⬇️  <br>
+<!-- .element: class="fragment" data-fragment-index="3" --> Depth of 580°C isotherm<sup>2</sup>
+</p>
+<p>⬇️  <br>
+<!-- .element: class="fragment" data-fragment-index="4" --> <strong>Surface heat flow</strong><sup>3</sup>
+</p>
+
+</div>
+</div>
+<div class="footnote">
+
+<span class="fragment" data-fragment-index="2"><sup>1</sup> Assuming homogenous and induced-only magnetization.</span>
+<br>
+<span class="fragment" data-fragment-index="3"><sup>2</sup> Assuming the magnetic minerals are magnetite.</span>
+<br>
+<span class="fragment" data-fragment-index="4"><sup>3</sup> Assuming homogeneous thermal conductivity.</span>
+
+</div>
+
+===============================================================================
+
 <!-- .slide: data-background-image="assets/magnetic-spectrum-method-window.svg" data-background-size="contain" -->
 
 <div class="r-stretch">
@@ -194,36 +224,118 @@ Right image modified from: [Fox Maule et al. (2005)](https://doi.org/10.1126/sci
 
 <!-- .slide: class="slide-transition" -->
 
-# What we're working on
+
+<div class="huge">
+
+What we're working on:
+
+<span class="fragment">Data quality + Depth estimation</span>
+
+</div>
 
 ===============================================================================
 
+<div class="huge">
+
+**Equivalent sources**
+
+</div>
+<div class="huge" style="margin-top: 2em">
+
+<span class="fragment">From **~50k** data in **days** on 🖥️ 🖥️ 🖥️ 🖥️  </span>
+
+<span class="fragment">to **~10G** data in **hours** on 💻 </span>
+
+</div>
+
+===============================================================================
+
+<div class="r-stretch centered">
+<div>
 <img src="assets/hamed-inputs.jpg">
+</div>
+</div>
+<div class="footnote-left">
+
+From the BSc dissertation of Hamed Rashid Hamed Alsalehi (2022)
+
+</div>
 
 ===============================================================================
 
+<div class="r-stretch centered">
+<div>
 <img src="assets/hamed-grids.jpg">
+</div>
+</div>
+<div class="footnote-left">
+
+From the BSc dissertation of Hamed Rashid Hamed Alsalehi (2022)
+
+</div>
 
 ===============================================================================
 
-Anomalies to crustal field
+<!-- .slide: data-background-image="assets/india-results.svg" data-background-size="contain" -->
 
-India's results.
-Justify why norm of by with figure from Marlon's paper
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
 
-===============================================================================
 
-# Summary
+From the poster presentation: [Uppal et al. (2023)](https://www.compgeolab.org/news/pgr-conference2023.html)
 
-1. Geothermal heat flow -> ice sheet future
-1. Magnetic data are usually at play
-1. Issues with how data are merged
-1. Issues with how data are modelled
-1. We're fixing data merging and then inversion
+</div>
 
 ===============================================================================
 
-Something about India.
+# **End goals**
+
+<div class="large">
+
+1. <!-- .element: class="fragment" --> New merged Antartic magnetic <strong>data</strong> 
+1. <!-- .element: class="fragment" --> Updated inference <strong>method</strong> for heat flow
+1. <!-- .element: class="fragment" --> Open-source <strong>software</strong> for all of this
+1. <!-- .element: class="fragment" --> <strong>Applications</strong> to other continents
+
+</div>
+
+===============================================================================
+
+# **This is the hard work of**
+
+<div class="row">
+<div class="col-gutter">
+
+<img src="https://github.com/santisoler.png" style="border-radius: 50%;
+  box-shadow: 0px 0px 25px -5px #333333;">
+
+## Santiago Soler 
+
+(former PhD)
+
+</div>
+<div class="col-gutter">
+
+<img src="https://github.com/indiauppal.png" style="border-radius: 50%;
+  box-shadow: 0px 0px 25px -5px #333333;">
+
+## India Uppal 
+
+(current PhD)
+
+</div>
+<div class="col-gutter">
+
+<img src="https://github.com/HamedAlsalehi.png" style="border-radius: 50%;
+  box-shadow: 0px 0px 25px -5px #333333;">
+
+## Hamed Alsalehi 
+
+(former BSc)
+
+</div>
+</div>
 
 ===============================================================================
 
