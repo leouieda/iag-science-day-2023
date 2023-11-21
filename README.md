@@ -1,30 +1,13 @@
-# Template for my reveal.js based slides
+# Talk at IAG Science Day 2023
 
-This is a template I use to make [reveal.js](https://revealjs.com/) slides
-for talks and lectures.
-It adds some custom styling and CSS classes for making columns, footnotes,
-and more.
+This is a 4-minute talk aimed at a general audience about
+some of the current research in the [CompGeoLab](https://www.compgeolab.org/).
+It's for the [2023 IAG Science Day](https://www.iag.usp.br/eventos/science-day-2023)
+and will be streamed on YouTube.
 
-**Preview:** https://www.leouieda.com/talk-template
+## Template
 
-> The original inspiration is this template by Matthew Turk:
-> https://github.com/matthewturk/mjt-talk-template
-
-## Using
-
-1. Click on the "Use this template" button or go to
-   https://github.com/leouieda/talk-template/generate to create a
-   new repository for your slides.
-1. Change the HTML title (the one that appears on the browser tab)
-   in `index.html`.
-1. Remove the Plausible Analytics script from the `<head>` in `index.html`.
-1. Preview the presentation by
-   [serving the slides locally](#serving-the-slides-locally).
-1. Add your content to `slides.md` and images to `assets`
-   (remove the images you don't want to use).
-1. Commit and push your changes.
-1. Make your presentation public by
-   [enabling GitHub Pages](#serving-on-github-pages).
+These slides were made from the template: https://github.com/leouieda/talk-template
 
 ## What's included
 
@@ -91,31 +74,6 @@ python serve.py
 
 The slides will open on your default browser and will automatically reload
 when you update any of the files in the repository.
-
-## Serving on GitHub Pages
-
-Go to your repository "Settings > Pages" and select "Source" as the
-`main` branch and `/ (root)`. You probably want to select "Enforce HTTPS"
-as well.
-
-Your slides should now be served at https://USERNAME.github.io/REPOSITORY
-or equivalent if you're using a custom domain.
-It may take a little while for this to happen.
-
-For example, this template is served at
-https://www.leouieda.com/talk-template.
-
-## Exporting to PDF
-
-You can save your slides to PDF for a backup or to distribute
-(I find students like this because they can annotate the PDF).
-To do so, add `?print-pdf` to the end of the URL (either local
-server or hosted) and then print the page to PDF.
-
-This **works best on Chrome/Chromium**. The slides tend to be
-distorted on Firefox for some reason.
-
-**WARNING:** Videos and gifs don't work on PDFs.
 
 ## License
 
