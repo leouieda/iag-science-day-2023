@@ -5,6 +5,8 @@ some of the current research in the [CompGeoLab](https://www.compgeolab.org/).
 It's for the [2023 IAG Science Day](https://www.iag.usp.br/eventos/science-day-2023)
 and will be streamed on YouTube.
 
+Slides: https://www.leouieda.com/iag-science-day-2023 | [download a PDF version](https://github.com/leouieda/iag-science-day-2023/releases/download/submitted/IAG.Science.Day.2023.-.Leonardo.Uieda.pdf)
+
 ## Template
 
 These slides were made from the template: https://github.com/leouieda/talk-template
