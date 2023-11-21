@@ -27,7 +27,7 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-November 2023
+23 November 2023
 <span style="margin: 0 20px"></span>
 IAG Science Day 2023
 
@@ -110,19 +110,28 @@ From APMAP2 data ([Golynsky et al., 2018](https://doi.org/10.1029/2018GL078153))
 <p>
 <!-- .element: class="fragment" data-fragment-index="1" --> Magnetic data
 </p>
-<p>⬇️  <br>
-<!-- .element: class="fragment" data-fragment-index="2" --> Depth of sources<sup>1</sup>
+<p>
+<!-- .element: class="fragment" data-fragment-index="2" --> 
+<i class="fas fa-arrow-alt-circle-down" style="color: #0053d1"></i> 
+<br>
+Depth of sources<sup>1</sup>
 </p>
-<p>⬇️  <br>
-<!-- .element: class="fragment" data-fragment-index="3" --> Depth of 580°C isotherm<sup>2</sup>
+<p>
+<!-- .element: class="fragment" data-fragment-index="3" --> 
+<i class="fas fa-arrow-alt-circle-down" style="color: #0053d1"></i> 
+<br>
+Depth of 580°C isotherm<sup>2</sup>
 </p>
-<p>⬇️  <br>
-<!-- .element: class="fragment" data-fragment-index="4" --> <strong>Surface heat flow</strong><sup>3</sup>
+<p>
+<!-- .element: class="fragment" data-fragment-index="4" --> 
+<i class="fas fa-arrow-alt-circle-down" style="color: #0053d1"></i> 
+<br>
+<strong>Surface heat flow</strong><sup>3</sup>
 </p>
 
 </div>
 </div>
-<div class="footnote">
+<div class="footnote fragment" data-fragment-index="2">
 
 <span class="fragment" data-fragment-index="2"><sup>1</sup> Assuming homogenous and induced-only magnetization.</span>
 <br>
@@ -229,7 +238,7 @@ Right image modified from: [Fox Maule et al. (2005)](https://doi.org/10.1126/sci
 
 What we're working on:
 
-<span class="fragment">Data quality + Depth estimation</span>
+<span class="fragment">Data merger + Depth estimation</span>
 
 </div>
 
@@ -242,9 +251,9 @@ What we're working on:
 </div>
 <div class="huge" style="margin-top: 2em">
 
-<span class="fragment">From **~50k** data in **days** on 🖥️ 🖥️ 🖥️ 🖥️  </span>
+<span class="fragment">From **~50k** data in **days** on  <i class="fas fa-server"></i> <i class="fas fa-server"></i> </span>
 
-<span class="fragment">to **~10G** data in **hours** on 💻 </span>
+<span class="fragment">to **~10G** data in **hours** on <i class="fas fa-laptop"></i></span>
 
 </div>
 
